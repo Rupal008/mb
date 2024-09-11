@@ -1,0 +1,200 @@
+/* Ensures the entire viewport is black */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0c1c; /* Black background for entire viewport */
+    height: 100%;
+    
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #6dd5ed, #f78ca0); /* Gradient color */
+    -webkit-background-clip: text; /* For WebKit browsers */
+    -webkit-text-fill-color: transparent; /* For WebKit browsers */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Fallback color */
+  }
+  
+  /* Ensures the section spans full width and height */
+  .full-width-bg {
+    background-color: #000; /* Black background for the section */
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+  }
+  
+  /* Custom card styling */
+  .first-comp-container {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 2rem;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.text-content {
+    /* margin-left: -10%; */
+}
+
+.main-heading {
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.highlight {
+    color: lightskyblue;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn-get-started {
+    background-color: #60E1CB;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    width: 30%;
+}
+
+.btn-contact-us {
+    background-color: #FFFFFF;
+    color: #60E1CB;
+    border: 1px solid #07003B2B;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    width: 30%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5; /* Optional: adjust opacity for background image */
+}
+
+.mockup-image {
+    width: 66%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    margin-right: 80px;
+    z-index: 2; /* Ensure this image is above the background */
+}
+
+.card{
+    /* margin: 20px;
+    padding: 20px; */
+    background-color: #131323;
+    /* /* color: #fff;
+    border-radius: 10px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card2{
+    background-color: #131323;
+    width: 100%;
+    height: 80%;
+    height:20rem;
+    margin-top: 60px;
+    /* position: relative; */
+}
+
+.clickable-row {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .clickable-row:hover {
+    background-color: #f8f9fa;
+  }
+
+  .icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  .icon-wrapper .fa-info-circle {
+    font-size: 2rem; /* Adjust icon size as needed */
+  }
+  .icon-wrapper .fa-check {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745; /* Green color for checkmark */
+    font-size: 1rem; /* Adjust checkmark size as needed */
+  }
+  .clickable-row {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* background-color: #f0f0f0; Gray background color */
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+  }
+  .clickable-row:hover {
+    /* background-color: #e0e0e0; Light gray on hover */
+  }
+  .clickable-row:active {
+    background-color: #007bff; /* Blue background color when clicked */
+    color: white; /* Change text color to white on click */
+  }
+  .clickable-row:active .fa-check {
+    color: white; /* Ensure checkmark is visible on blue background */
+  }
+
+  .btn-get-started {
+    /* Add light blue box-shadow */
+    box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5); /* rgba(173, 216, 230) is light blue */
+  }
+  input[type='text'] {
+    /* Add light blue box-shadow */
+    box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5); /* rgba(173, 216, 230) is light blue */
+  }
+  .text-content {
+    /* Add light blue box-shadow */
+    padding: 5rem;
+    box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5); /* rgba(173, 216, 230) is light blue */
+  }
+      
+  .border-box {
+    border: 1px solid #ddd; /* Light gray border for the container */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the container */
+    background-color: #131323; /* Background color of the container */
+    color: #FFFFFF; /* Text color */
+}
+.dropdown-menu {
+    background-color: #131323; /* Dropdown background color */
+    border: 1px solid #fff3; /* Border color for the dropdown */
+    border-radius: 8px; /* Rounded corners for the dropdown */
+}
+.dropdown-item {
+    color: #FFFFFF; /* Text color for dropdown items */
+}
+.dropdown-item:hover {
+    background-color: #444; /* Background color on hover */
+}
